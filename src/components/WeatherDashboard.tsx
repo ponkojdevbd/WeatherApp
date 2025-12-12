@@ -106,13 +106,15 @@ const WeatherDashboard: React.FC = () => {
           </p>
           <div className="flex space-x-6">
             <a
-              href="#"
+              href="https://github.com/ponkojdevbd"
               className="hover:text-white transition-colors duration-300 hover:scale-110 transform"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaGithub size={18} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ponkoj-mondol-bd/"
               className="hover:text-white transition-colors duration-300 hover:scale-110 transform"
             >
               <FaLinkedin size={18} />
@@ -124,7 +126,7 @@ const WeatherDashboard: React.FC = () => {
               <FaTwitter size={18} />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/ponkoj.mondol.bd"
               className="hover:text-white transition-colors duration-300 hover:scale-110 transform"
             >
               <FaFacebook size={18} />
